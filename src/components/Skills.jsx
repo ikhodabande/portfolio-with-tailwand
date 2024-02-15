@@ -13,7 +13,21 @@ import Mongo from '../assests/mongo.png';
 
 const Skills = () => {
   return (
-    <div>Skills</div>
+    <div name='skills'>
+      <div>
+        <div>
+          <p>Expreience</p>
+          <p>// These are the technologies I've worked with</p>
+        </div>
+        <div>
+          <div>
+            <img src="HTML" alt="" />
+            <p>HTML</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
   )
 }
 
