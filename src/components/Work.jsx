@@ -1,5 +1,7 @@
 import React from 'react';
-import workImg from '../assests/'
+import workImg from '../assests/project/workImg_.png';
+import userProject from '../assests/project/workImg (2).png';
+
 
 const Work = () => {
   return (
@@ -9,10 +11,12 @@ const Work = () => {
         <p className='text-4xl font-bold inline border-b- 4 text-gray-300 border-pink-600'>Works</p>
         <p className='py-6'>//Check out Some Of My Recent Works</p>
       </div>
-      <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+      <div style={{backgroundImage:`url(${workImg})`}}
+       className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
         <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'> 
        
-          <div>
+          
+          {/* Hover effects */}
             <div>
               <span>
 
@@ -22,7 +26,7 @@ const Work = () => {
                 <a href="#"><button></button></a>
               </div>
             </div>
-          </div>
+          
         </div>
 
       </div>
