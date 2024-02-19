@@ -17,7 +17,7 @@ const Work = () => {
        
           
           {/* Hover effects */}
-            <div>
+            <div className='opacity-0 group-hover:opacity-100'>
               <span>
 
               </span>
