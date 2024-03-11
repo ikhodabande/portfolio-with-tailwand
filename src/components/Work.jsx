@@ -8,10 +8,10 @@ import portfolio from '../assests/project/portfolio.png';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full text-gray-300 md:h-screen bg-[#0a192f]'>
+    <div name='work' className='w-full text-gray-300 md:h-screen bg-[#776B5D]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col judtify-center w-full h-full'>
       <div className='pb-8'>
-        <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Works</p>
+        <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#cc5c00]'>Works</p>
         <p className='py-6'>//Check out Some Of My Recent Works</p>
       </div>
 {/* container */}
