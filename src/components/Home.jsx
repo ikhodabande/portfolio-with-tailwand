@@ -18,7 +18,7 @@ const Home = () => {
       </div>
       </div>
       <div className=''>
-        <a href=""><img className='absolute top-0 right-60 h-screen z-0 ' src={profileImg} alt="" /></a>
+        <a href=""><img className='absolute top-0 sm:right-40 h-screen z-0 ' src={profileImg} alt="" /></a>
       </div>
 
     </div>
