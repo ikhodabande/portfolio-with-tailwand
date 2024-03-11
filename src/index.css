@@ -20,12 +20,14 @@
   background-size: cover;
   background-position: center;
   height: 250px;
+  
 }
 
 .content-div:hover {
   background-image: linear-gradient(
     to right,
     #cc5c00,
-    #4f2400
+    #9c7351
   )!important;
+  
 }

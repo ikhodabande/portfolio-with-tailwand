@@ -12,7 +12,7 @@ const Work = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col judtify-center w-full h-full'>
       <div className='pb-8'>
         <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#cc5c00]'>Works</p>
-        <p className='py-6'>//Check out Some Of My Recent Works</p>
+        <p className='py-6'>Check out Some Of My Recent Works</p>
       </div>
 {/* container */}
       <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -36,7 +36,7 @@ const Work = () => {
        {/* Hover effects */}
          <div className='opacity-0 group-hover:opacity-100'>
            <span className='text-2xl font-bold text-white tracking-wider'>
-             React JS Application
+             UserManagement
            </span>
            <div className='pt-8 text-center'>
              <a href="#"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold '>Demo</button></a>
@@ -48,9 +48,8 @@ const Work = () => {
        
        {/* Hover effects */}
          <div className='opacity-0 group-hover:opacity-100'>
-           <span className='text-2xl font-bold text-white tracking-wider'>
-             React JS Application
-           </span>
+           <span className='pl-7 text-2xl font-bold text-white tracking-wider'>
+             Shop Cart</span>
            <div className='pt-8 text-center'>
              <a href="#"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold '>Demo</button></a>
              <a href="#"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold '>Code</button></a>
@@ -62,7 +61,7 @@ const Work = () => {
        {/* Hover effects */}
          <div className='opacity-0 group-hover:opacity-100'>
            <span className='text-2xl font-bold text-white tracking-wider'>
-             React JS Application
+             Weather Applicatin
            </span>
            <div className='pt-8 text-center'>
              <a href="#"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold '>Demo</button></a>
@@ -75,7 +74,7 @@ const Work = () => {
        {/* Hover effects */}
          <div className='opacity-0 group-hover:opacity-100'>
            <span className='text-2xl font-bold text-white tracking-wider'>
-             React JS Application
+             Portfolio with React
            </span>
            <div className='pt-8 text-center'>
              <a href="#"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold '>Demo</button></a>
@@ -88,7 +87,7 @@ const Work = () => {
        {/* Hover effects */}
          <div className='opacity-0 group-hover:opacity-100'>
            <span className='text-2xl font-bold text-white tracking-wider'>
-             React JS Application
+             Netflix With React
            </span>
            <div className='pt-8 text-center'>
              <a href="#"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold '>Demo</button></a>

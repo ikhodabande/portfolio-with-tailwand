@@ -67,28 +67,28 @@ const Navbar = () => {
     {/* social icons */}
     <div className='hidden lg:flex flex-col fixed top-[35%] left-0 '>
       <ul>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5] '> 
+        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 ease-out bg-[#0077b5] '> 
           <a className='flex  justify-between items-center w-full text-gray-300  ' 
           href="https://www.linkedin.com/in/amikhodabande/">
           Linkedin 
           <FaLinkedin size={30}/>
           </a>
         </li>  
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] '> 
+        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 ease-out bg-[#333333] '> 
           <a className='flex  justify-between items-center w-full text-gray-300  ' 
           href="https://github.com/ikhodabande">
           Github
           <FaGithub size={30}/>
           </a>
         </li>  
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#410093] '> 
+        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 ease-out bg-[#410093] '> 
           <a className='flex  justify-between items-center w-full text-gray-300  ' 
           href="mailto:amimhmdkh@gmail.com">
           Email 
           <HiOutlineMail size={30}/>
           </a>
         </li>  
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] '> 
+        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 ease-out bg-[#565f69] '> 
           <a className='flex  justify-between items-center w-full text-gray-300  ' 
           href="/">
           Resume 
