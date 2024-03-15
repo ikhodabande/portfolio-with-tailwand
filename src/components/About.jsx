@@ -19,7 +19,7 @@ const About = () => {
             <p>Hi, I'm Client, nice to met you, Please take a look around.</p>
           </div>
           <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet adipisci incidunt harum eius non provident pariatur! Maiores ratione deserunt a!</p>
+            <p>Hey there! , As a passionate front-end developer with a knack for crafting beautiful and functional web experiences. I've always been fascinated by technology and how it can enhance our daily lives, which led me to pursue a career in web development.</p>
           </div>
         </div>
 

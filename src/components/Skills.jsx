@@ -6,7 +6,7 @@ import JavaScript from '../assests/javascript.png';
 import ReactImg from '../assests/react.png';
 import Node from '../assests/node.png';
 import Firbase from '../assests/firebase (1).png';
-import AWS from '../assests/aws (1).png';
+import Typescript from '../assests/Typescript.png';
 import Github from '../assests/github.png';
 import Tailwind from '../assests/tailwind.png';
 import Mongo from '../assests/mongo.png';
@@ -41,8 +41,8 @@ const Skills = () => {
             <p className='my-4'>Node</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto my-5' src={Firbase}  />
-            <p className='my-4'>Firebase</p>
+            <img className='w-20 mx-auto my-5' src={Typescript}  />
+            <p className='my-4'>TypeScript</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto my-5' src={Tailwind}  />
