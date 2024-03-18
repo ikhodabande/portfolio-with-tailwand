@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState ,useEffect} from 'react';
 import {FaBars, FaTimes, FaLinkedin, FaGithub} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
@@ -8,12 +8,32 @@ import { Link } from 'react-scroll';
 
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(false);
+  const [scrollNav, setScrollNav] = useState(false);
+
+
+useEffect(() => {
+    window.addEventListener('scroll', changeNav);
+  }, []);
+
+  
+  const changeNav = () => {
+    if (window.scrollY >= 80) {
+      setScrollNav(true);
+    } else {
+      setScrollNav(false);
+    }
+  };
+
+  
+
+
+
   const handleNav = () => setNav(!nav)
 
   return (
     
-    <div name='navbar' className='w-full h-[80px] fixed flex justify-between items-center px-5 bg-[#6f2232] text-gray-300 z-20'>
+    <div name='navbar' className={`w-full h-[80px] fixed flex justify-between items-center px-5 z-20 text-white ${scrollNav ? 'bg-[#6f2232]' : 'bg-transparent'}`}>
       <img src={logo} alt="" style={{width:'50px'}}/>
 
       
@@ -36,6 +56,8 @@ const Navbar = () => {
       </Link></li>
       </ul>
 
+
+     
 
     {/* // Hambergur */}
     <div onClick={handleNav} className='md:hidden z-10'>
