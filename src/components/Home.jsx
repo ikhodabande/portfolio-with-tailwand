@@ -13,12 +13,14 @@ const Home = () => {
         <h2 className='text-3xl sm:7xl font-bold text-[#EBE3D5] z-10'>Front-end developer</h2>
         <p className='md:text-[#F3EEEA] text-sm py-2 max-w-[700px] z-10 hidden sm:flex '>As a hard-working newbie in the field of web development 💻,<br /> I possess a strong foundation in HTML, CSS, and JavaScript , Now I'm on track to develop my skills</p>
       <div className='z-10'>
+        <Link to='work' smooth={true} duration={500} >
       <button className='text-white group mt-4 border-white border-2 px-4 py-2 flex justify-center items-center hover:bg-[#cc5c00] hover:border-[#cc5c00]'
-       onClick={MyWorks()}>View Work
+       >View Work
           <span className='group-hover:translateX-90 ' >
             <HiArrowRight className='ml-3'/>
           </span>
         </button>
+          </Link>
       </div>
       </div>
       <div className=''>
@@ -33,9 +35,6 @@ const Home = () => {
   
 }
 
-const MyWorks=()=>{
-    <Link to='work'/>
 
-  }
 
 export default Home;
