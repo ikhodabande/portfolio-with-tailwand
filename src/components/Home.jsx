@@ -12,7 +12,7 @@ const Home = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full  pt-[400px] sm:pt-0 '>
         <p className='text-xl sm:text-xl text-white '>Hello,</p>
         <h1 className='text-3xl sm:7xl font-bold text-white z-10'>I`m AmirMohammad Khodabande</h1>
-        <h2 className='text-3xl sm:7xl font-bold text-[#c3073f] z-10'>
+        <h2 className='text-3xl sm:8xl font-bold text-[#c3073f] z-10'>
         <Typewriter
   options={{
     strings: ['Front-end Developer', 'Web Developer' , 'Web Designer'],
@@ -28,11 +28,11 @@ const Home = () => {
        >View Work
         </button>
           </Link>
-          <Link>
+          <a href="https://www.linkedin.com/in/amikhodabande/">
           <button className='text-white border-white border-2 py-2 mt-4 px-4 mx-2 rounded-full  hover:bg-[#c3073f] hover:border-[#c3073f]'>
             Hire Me
           </button>
-          </Link>
+          </a>
       </div>
       </div>
       <div className=''>

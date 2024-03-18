@@ -33,7 +33,7 @@ useEffect(() => {
 
   return (
     
-    <div name='navbar' className={`w-full h-[80px] fixed flex justify-between items-center px-5 z-20 text-white ${scrollNav ? 'bg-[#6f2232]' : 'bg-transparent'}`}>
+    <div name='navbar' className={`w-full h-[80px] fixed flex justify-between items-center px-5 z-20 text-white ${scrollNav ? 'bg-[#6f2231] duration-500' : 'bg-transparent duration-500'}`}>
       <img src={logo} alt="" style={{width:'50px'}}/>
 
       
@@ -68,20 +68,20 @@ useEffect(() => {
     </div>
 
     {/* //mobile view */}
-    <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#3f372e] flex flex-col justify-center items-center'} >
-        <li className='py-6 text-4xl'><Link onClick={handleNav} to="home" smooth={true} duration={500} >
+    <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#6f2231] flex flex-col justify-center items-center'} >
+        <li className='py-6 text-4xl'><Link className='hover:border-b-2 pb-2 duration-75 ease-in-out' onClick={handleNav} to="home" smooth={true} duration={500} >
       Home
       </Link></li>
-        <li className='py-6 text-4xl'><Link onClick={handleNav} to="about" smooth={true} duration={500} >
+        <li className='py-6 text-4xl'><Link className='hover:border-b-2 pb-2 duration-75 ease-in-out' onClick={handleNav} to="about" smooth={true} duration={500} >
       About
       </Link></li>
-        <li className='py-6 text-4xl'><Link onClick={handleNav} to="skills" smooth={true} duration={500} >
+        <li className='py-6 text-4xl'><Link className='hover:border-b-2 pb-2 duration-75 ease-in-out' onClick={handleNav} to="skills" smooth={true} duration={500} >
       Skills
       </Link></li>
-        <li className='py-6 text-4xl'><Link onClick={handleNav} to="work" smooth={true} duration={500} >
+        <li className='py-6 text-4xl'><Link className='hover:border-b-2 pb-2 duration-75 ease-in-out' onClick={handleNav} to="work" smooth={true} duration={500} >
       Work
       </Link></li>
-        <li className='py-6 text-4xl'><Link onClick={handleNav} to="contact" smooth={true} duration={500} >
+        <li className='py-6 text-4xl'><Link className='hover:border-b-2 pb-2 duration-75 ease-in-out' onClick={handleNav} to="contact" smooth={true} duration={500} >
       Contact
       </Link></li>
     </ul>
