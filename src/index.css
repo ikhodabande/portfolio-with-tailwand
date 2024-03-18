@@ -23,6 +23,10 @@
   
 }
 
+body {
+  background: #776B5D;
+}
+
 .content-div:hover {
   background-image: linear-gradient(
     to right,
