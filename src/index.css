@@ -15,6 +15,10 @@
   }
 }
 
+body{
+  background: #6f2232;
+}
+
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,15 +27,13 @@
   
 }
 
-body {
-  background: #776B5D;
-}
+
 
 .content-div:hover {
   background-image: linear-gradient(
     to right,
-    #cc5c00,
-    #9c7351
+    #6f2232,
+    #c3073f
   )!important;
   
 }

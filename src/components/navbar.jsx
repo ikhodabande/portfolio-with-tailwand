@@ -13,25 +13,25 @@ const Navbar = () => {
 
   return (
     
-    <div name='navbar' className='w-full h-[80px] fixed flex justify-between items-center px-5 bg-[#3f372e] text-gray-300 z-20'>
+    <div name='navbar' className='w-full h-[80px] fixed flex justify-between items-center px-5 bg-[#6f2232] text-gray-300 z-20'>
       <img src={logo} alt="" style={{width:'50px'}}/>
 
       
       <ul className='hidden md:flex'>
       
-        <li><Link  to="home" smooth={true} duration={500} >
+        <li ><Link className='hover:border-b-2 pb-2' to="home" smooth={true} duration={500} >
       Home
       </Link></li>
-        <li><Link  to="about" smooth={true} duration={500} >
+        <li><Link className='hover:border-b-2 pb-2' to="about" smooth={true} duration={500} >
       About
       </Link></li>
-        <li><Link  to="skills" smooth={true} duration={500} >
+        <li><Link className='hover:border-b-2 pb-2' to="skills" smooth={true} duration={500} >
       Skills
       </Link></li>
-        <li><Link  to="work" smooth={true} duration={500} >
+        <li><Link className='hover:border-b-2 pb-2' to="work" smooth={true} duration={500} >
       Work
       </Link></li>
-        <li><Link  to="contact" smooth={true} duration={500} >
+        <li><Link className='hover:border-b-2 pb-2' to="contact" smooth={true} duration={500} >
       Contact
       </Link></li>
       </ul>

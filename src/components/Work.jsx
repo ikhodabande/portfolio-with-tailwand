@@ -8,10 +8,10 @@ import netflix from '../assests/project/netflix.png';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full text-gray-300 md:h-screen bg-[#776B5D] pt-20'>
+    <div name='work' className='w-full text-gray-300 h-screen bg-[#6f2232] pt-[100px] sm:pt-0 mb-[1200px] sm:mb-0'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col judtify-center w-full h-full'>
-      <div className='pb-8'>
-        <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#cc5c00]'>Works</p>
+      <div>
+        <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#1a1a1a]'>Works</p>
         <p className='py-6'>Check out Some Of My Recent Works</p>
       </div>
 {/* container */}
