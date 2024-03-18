@@ -74,7 +74,7 @@ const Work = () => {
        {/* Hover effects */}
          <div className='opacity-0 group-hover:opacity-100'>
            <span className='text-2xl font-bold text-white tracking-wider'>
-             Portfolio with React
+             Netflix with React
            </span>
            <div className='pt-8 text-center'>
              <a href="#"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold '>Demo</button></a>
@@ -87,7 +87,7 @@ const Work = () => {
        {/* Hover effects */}
          <div className='opacity-0 group-hover:opacity-100'>
            <span className='text-2xl font-bold text-white tracking-wider'>
-             Netflix With React
+             portfolio With React
            </span>
            <div className='pt-8 text-center'>
              <a href="#"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold '>Demo</button></a>

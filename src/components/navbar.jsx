@@ -33,7 +33,7 @@ useEffect(() => {
 
   return (
     
-    <div name='navbar' className={`w-full h-[80px] fixed flex justify-between items-center px-5 z-20 text-white ${scrollNav ? 'bg-[#6f2231] duration-500' : 'bg-transparent duration-500'}`}>
+    <div name='navbar' className={`w-full h-[80px] fixed flex justify-between items-center px-5 z-20 text-white ${scrollNav ? 'bg-[#6f2231] shadow-lg duration-500' : 'bg-transparent duration-500'}`}>
       <img src={logo} alt="" style={{width:'50px'}}/>
 
       
@@ -62,13 +62,13 @@ useEffect(() => {
     {/* // Hambergur */}
     <div onClick={handleNav} className='md:hidden z-10'>
       {!nav ?
-        <FaBars/> 
+        <FaBars className='hover:cursor-pointer'/> 
       : 
-      <FaTimes/>}
+      <FaTimes className='hover:cursor-pointer'/>}
     </div>
 
     {/* //mobile view */}
-    <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#6f2231] flex flex-col justify-center items-center'} >
+    <ul className={!nav ? 'hidden duration-500' : 'absolute top-0 left-0 w-full h-screen bg-[#6f2231] flex flex-col justify-center items-center duration-700'} >
         <li className='py-6 text-4xl'><Link className='hover:border-b-2 pb-2 duration-75 ease-in-out' onClick={handleNav} to="home" smooth={true} duration={500} >
       Home
       </Link></li>

@@ -5,6 +5,8 @@ import mobileviewProfile from '../assests/f4.png';
 import { Link } from 'react-scroll';
 import Typewriter from 'typewriter-effect';
 import mobileviewProfileHovered from '../assests/Grouvp 4.png';
+import '../animation.css';
+
 
 const Home = () => {
   return (
@@ -29,7 +31,7 @@ const Home = () => {
         </button>
           </Link>
           <a href="https://www.linkedin.com/in/amikhodabande/">
-          <button className='text-white border-white border-2 py-2 mt-4 px-4 mx-2 rounded-full  hover:bg-[#c3073f] hover:border-[#c3073f]'>
+          <button className='fade-in-up text-white border-white border-2 py-2 mt-4 px-4 mx-2 rounded-full heartbeat hover:bg-[#c3073f] hover:border-[#c3073f]'>
             Hire Me
           </button>
           </a>
@@ -38,7 +40,7 @@ const Home = () => {
       <div className=''>
         <a href=""><img className='absolute top-10 sm:top-0 sm:right-40 hidden sm:flex  sm:h-screen z-0 ' src={profileImg} alt="" /></a>
         <a href=""><img className='absolute top-24 sm:top-0 sm:right-40 flex sm:hidden  sm:h-screen  z-0 hover:opacity-0 ' src={mobileviewProfile} alt="" /></a>
-        <a href=""><img className='absolute top-24 sm:top-0 sm:right-40 flex sm:hidden  sm:h-screen  z-0 opacity-0 hover:opacity-50' src={mobileviewProfileHovered} alt="" /></a>
+        <a href=""><img className='absolute top-24 sm:top-0 sm:right-40 flex sm:hidden  sm:h-screen  z-0 opacity-0 hover:opacity-50 duration-500 ease-in-out' src={mobileviewProfileHovered} alt="" /></a>
       
         
       </div>
