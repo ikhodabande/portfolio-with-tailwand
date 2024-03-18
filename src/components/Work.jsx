@@ -8,7 +8,7 @@ import portfolio from '../assests/project/portfolio.png';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full text-gray-300 md:h-screen bg-[#776B5D]'>
+    <div name='work' className='w-full text-gray-300 md:h-screen bg-[#776B5D] pt-20'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col judtify-center w-full h-full'>
       <div className='pb-8'>
         <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#cc5c00]'>Works</p>
