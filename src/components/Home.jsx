@@ -13,7 +13,7 @@ const Home = () => {
     <div name='home' className='w-full h-screen bg-[#1a1a1a] '>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full  pt-[400px] sm:pt-0 '>
         <p className='text-xl sm:text-xl text-white '>Hello,</p>
-        <h1 className='text-3xl sm:7xl font-bold text-white z-10'>I`m AmirMohammad Khodabande</h1>
+        <h1 className='text-3xl sm:7xl font-bold text-white z-10 '>I`m AmirMohammad Khodabande</h1>
         <h2 className='text-3xl sm:8xl font-bold text-[#c3073f] z-10'>
         <Typewriter
   options={{
@@ -31,7 +31,7 @@ const Home = () => {
         </button>
           </Link>
           <a href="https://www.linkedin.com/in/amikhodabande/">
-          <button className='fade-in-up text-white border-white border-2 py-2 mt-4 px-4 mx-2 rounded-full heartbeat hover:bg-[#c3073f] hover:border-[#c3073f]'>
+          <button className='fade-in-up text-white border-[#c3073f] border-2 py-2 mt-4 px-4 mx-2 rounded-full heartbeat hover:bg-[#c3073f] hover:border-[#c3073f]'>
             Hire Me
           </button>
           </a>
