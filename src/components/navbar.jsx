@@ -33,7 +33,7 @@ useEffect(() => {
 
   return (
     
-    <div name='navbar' className={`w-full h-[80px] fixed flex justify-between items-center px-5 z-20 text-white ${scrollNav ? 'bg-[#6f2231] shadow-lg duration-500' : 'bg-transparent duration-500'}`}>
+    <div name='navbar' className={`w-full h-[80px]   fixed flex justify-around items-center  z-20 text-white ${scrollNav ? 'bg-[#6f2231] shadow-lg duration-500' : 'bg-transparent duration-500'}`}>
       <img src={logo} alt="" style={{width:'50px'}}/>
 
       

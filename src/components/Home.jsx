@@ -31,7 +31,7 @@ const Home = () => {
         </button>
           </Link>
           <a href="https://www.linkedin.com/in/amikhodabande/">
-          <button className='fade-in-up text-white border-[#c3073f] border-2 py-2 mt-4 px-4 mx-2 rounded-full heartbeat hover:bg-[#c3073f] hover:border-[#c3073f]'>
+          <button className='fade-in-up text-white bg-[#c3073f] border-[#c3073f] border-2 py-2 mt-4 px-4 mx-2 rounded-full heartbeat hover:bg-[#c3073f] hover:border-[#c3073f]'>
             Hire Me
           </button>
           </a>

@@ -4,6 +4,7 @@ import userProject from '../assests/project/user.png';
 import shop from '../assests/project/shop.png';
 import weather from '../assests/project/weather.png';
 import netflix from '../assests/project/netflix.png';
+import portfolio from '../assests/project/portfolio.png';
 
 
 const Work = () => {
@@ -82,7 +83,7 @@ const Work = () => {
            </div>
          </div>
      </div>
-     <div style={{backgroundImage:`url(${workImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'> 
+     <div style={{backgroundImage:`url(${portfolio})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'> 
        
        {/* Hover effects */}
          <div className='opacity-0 group-hover:opacity-100'>
