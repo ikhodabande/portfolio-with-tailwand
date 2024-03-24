@@ -33,27 +33,34 @@ useEffect(() => {
 
   return (
     
-    <div name='navbar' className={`w-full h-[80px]   fixed flex justify-around items-center  z-20 text-white ${scrollNav ? 'bg-[#6f2231] shadow-lg duration-500' : 'bg-transparent duration-500'}`}>
+    <div name='navbar' className={`w-full h-[80px]   fixed flex justify-between md:justify-around items-center px-5  z-20 text-white ${scrollNav ? 'bg-[#6f2231] shadow-lg duration-500' : 'bg-transparent duration-500'}`}>
       <img src={logo} alt="" style={{width:'50px'}}/>
 
       
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex items-center'>
       
-        <li ><Link className='hover:border-b-2 pb-2' to="home" smooth={true} duration={500} >
+        <li ><Link className=' hover:border-b-2 pb-2' to="home" smooth={true} duration={500} >
       Home
       </Link></li>
-        <li><Link className='hover:border-b-2 pb-2' to="about" smooth={true} duration={500} >
+        <li><Link className=' hover:border-b-2 pb-2' to="about" smooth={true} duration={500} >
       About
       </Link></li>
-        <li><Link className='hover:border-b-2 pb-2' to="skills" smooth={true} duration={500} >
+        <li><Link className=' hover:border-b-2 pb-2' to="skills" smooth={true} duration={500} >
       Skills
       </Link></li>
-        <li><Link className='hover:border-b-2 pb-2' to="work" smooth={true} duration={500} >
+        <li><Link className=' hover:border-b-2 pb-2' to="work" smooth={true} duration={500} >
       Work
       </Link></li>
-        <li><Link className='hover:border-b-2 pb-2' to="contact" smooth={true} duration={500} >
+        <li><Link className=' hover:border-b-2 pb-2' to="contact" smooth={true} duration={500} >
       Contact
       </Link></li>
+      <li>
+      <a href="https://www.linkedin.com/in/amikhodabande/">
+          <button className='fade-in-up text-white bg-[#c3073f] border-[#c3073f] px-5 py-2 rounded-full heartbeat hover:bg-[#c3073f] hover:border-[#c3073f]'>
+            Hire Me
+          </button>
+          </a>
+      </li>
       </ul>
 
 
